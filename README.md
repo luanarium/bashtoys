@@ -40,7 +40,6 @@ $ lastpath
 
 
 
-````markdown
 # Add the code with nano
 
 Here's a brief walkthrough of adding the code to `.bashrc` via nano:
@@ -84,6 +83,5 @@ cp ~/.bashrc ~/.bashrc.bak
 
 This creates a copy named `.bashrc.bak` in the same directory.
 
-```
 ```
 
