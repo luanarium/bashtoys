@@ -11,7 +11,8 @@ Gets the last absolute path used in the terminal and opens it in the default fil
 
 Works on most Linux distributions that support the XDG desktop standards and include xdg-open (e.g., Ubuntu, Debian, Fedora, Arch, etc.).
 
-''' lastpath() {
+```bash
+lastpath() {
     # Get the last command
     last_cmd=$(history | tail -n2 | head -n1 | sed 's/^[ ]*[0-9]\+[ ]*//')
 
@@ -24,5 +25,7 @@ Works on most Linux distributions that support the XDG desktop standards and inc
     fi
 
     xdg-open "$path"
-} '''
+}
+```
+
 
