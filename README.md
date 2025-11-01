@@ -3,7 +3,7 @@ A collection of highly useful bash scripts
 
 These scripts are designed for systems using the GNU Bash shell (e.g., Ubuntu, Debian, Fedora, Arch, macOS, WSL), and will run in any terminal emulator that launches Bash.
 
-## DISCLAIMER: These scripts are provided "AS IS" without warranty of any kind. The author assumes no responsibility for any consequences of their use.
+DISCLAIMER: These scripts are provided "AS IS" without warranty of any kind. The author assumes no responsibility for any consequences of their use.
 
 How do I add these scripts to my bashrc file? [Go to Nano Instructions](#add-code-with-nano)
 
