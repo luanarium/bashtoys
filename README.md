@@ -7,6 +7,11 @@ These scripts are designed for systems using the GNU Bash shell (e.g., Ubuntu, D
 
 How do I add these scripts to my bashrc file? [Go to Nano Instructions](#add-code-with-nano)
 
+# The list
+
+[Lastpath](#lastpath)
+Gets the last absolute path used in the terminal and opens it in the default file manager.
+
 # Lastpath
 
 Gets the last absolute path used in the terminal and opens it in the default file manager. If no path is found, the script opens the current directory.
