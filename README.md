@@ -11,6 +11,7 @@ DISCLAIMER: These scripts are provided "AS IS" without warranty of any kind. The
 
 [Add2](#add2)
 Create aliases in the terminal
+
 [Lastpath](#lastpath)
 Gets the last absolute path used in the terminal and opens it in the default file manager.
 
