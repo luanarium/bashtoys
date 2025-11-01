@@ -28,5 +28,10 @@ lastpath() {
 }
 ```
 
-Usage is simply '''bash lastpath '''
+Usage example.
+```bash
+$ cd /usr/share/doc
+$ ls
+$ lastpath
+```
 
