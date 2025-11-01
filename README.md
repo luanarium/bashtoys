@@ -9,8 +9,40 @@ DISCLAIMER: These scripts are provided "AS IS" without warranty of any kind. The
 
 # The list
 
+[Add2](#add2)
+Create aliases in the terminal
 [Lastpath](#lastpath)
 Gets the last absolute path used in the terminal and opens it in the default file manager.
+
+# Add2
+
+This function, `add2`, adds a new alias to the .bashrc file and immediately reloads the file to make the new alias available in the current shell session.
+
+```bash
+add2() {
+    local alias_name="$1"
+    local command="$2"
+
+    # Remove spaces from alias_name
+    alias_name=$(echo "$alias_name" | tr -d ' ')
+
+    # Add alias to .bashrc
+    printf "\\nalias \\"%s\\"=\\"%s\\"\\n\\n" "$alias_name" "$command" >> ~/.bashrc
+
+    echo "Alias '$alias_name' added successfully" >&2
+    source ~/.bashrc
+}
+```
+
+Usage example.
+```bash
+$ ls
+$ add2 list "!!"
+add2 list "ls"
+Alias 'list' added successfully
+```
+
+The last used command is grabbed to create an alias named “list”
 
 # Lastpath
 
