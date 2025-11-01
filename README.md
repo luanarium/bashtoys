@@ -28,4 +28,5 @@ lastpath() {
 }
 ```
 
+Usage is simply '''bash lastpath '''
 
