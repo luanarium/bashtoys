@@ -5,6 +5,8 @@ These scripts are designed for systems using the GNU Bash shell (e.g., Ubuntu, D
 
 ## DISCLAIMER: These scripts are provided "AS IS" without warranty of any kind. The author assumes no responsibility for any consequences of their use.
 
+How do I add these scripts to my bashrc file? [Go to Nano Instructions](#add-the-code-with-nano)
+
 # Lastpath
 
 Gets the last absolute path used in the terminal and opens it in the default file manager.
@@ -33,5 +35,55 @@ Usage example.
 $ cd /usr/share/doc
 $ ls
 $ lastpath
+```
+
+
+
+
+````markdown
+# Add the code with nano
+
+Here's a brief walkthrough of adding the code to `.bashrc` via nano:
+
+1. Open nano editor by running:
+
+```bash
+nano ~/.bashrc
+````
+
+2. Scroll to the bottom of the file.
+
+3. Add your new code on a new line, for example:
+
+```bash
+# New addition
+echo "Hello World"
+```
+
+4. Save and exit nano by pressing **Ctrl+X**, then **Y**, then **Enter**.
+
+5. Reload `.bashrc` to apply changes:
+
+```bash
+source ~/.bashrc
+```
+
+**Key points:**
+
+* `.bashrc` is a hidden file in your home directory (`~/.bashrc`)
+* Use `nano ~/.bashrc` to open/edit it
+* Add your new code at the end of the file
+* Save with **Ctrl+X**, then **Y**, then **Enter**
+* Reload with `source ~/.bashrc`
+
+It's recommended to backup `.bashrc` before making major changes:
+
+```bash
+cp ~/.bashrc ~/.bashrc.bak
+```
+
+This creates a copy named `.bashrc.bak` in the same directory.
+
+```
 ```
 
