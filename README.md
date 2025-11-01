@@ -5,7 +5,7 @@ These scripts are designed for systems using the GNU Bash shell (e.g., Ubuntu, D
 
 ## DISCLAIMER: These scripts are provided "AS IS" without warranty of any kind. The author assumes no responsibility for any consequences of their use.
 
-How do I add these scripts to my bashrc file? [Go to Nano Instructions](#add-the-code-with-nano)
+How do I add these scripts to my bashrc file? [Go to Nano Instructions](#add-code-with-nano)
 
 # Lastpath
 
@@ -40,9 +40,9 @@ $ lastpath
 
 
 
-# Add the code with nano
+# Add code with nano
 
-Here's a brief walkthrough of adding the code to `.bashrc` via nano:
+Here's a brief walkthrough of adding code to `.bashrc` via nano:
 
 1. Open nano editor by running:
 
