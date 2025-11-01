@@ -9,7 +9,7 @@ How do I add these scripts to my bashrc file? [Go to Nano Instructions](#add-cod
 
 # Lastpath
 
-Gets the last absolute path used in the terminal and opens it in the default file manager.
+Gets the last absolute path used in the terminal and opens it in the default file manager. If no path is found, the script opens the current directory.
 
 Works on most Linux distributions that support the XDG desktop standards and include xdg-open (e.g., Ubuntu, Debian, Fedora, Arch, etc.).
 
