@@ -83,5 +83,3 @@ cp ~/.bashrc ~/.bashrc.bak
 
 This creates a copy named `.bashrc.bak` in the same directory.
 
-```
-
